@@ -14,7 +14,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	this->SetSizeHints( wxDefaultSize, wxDefaultSize );
 	this->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_SCROLLBAR ) );
 
-	wxBoxSizer* bSizer1;
+	wxBoxSizer* bSizer1; 
 	bSizer1 = new wxBoxSizer( wxHORIZONTAL );
 
 	wxBoxSizer* bSizer3;
@@ -37,7 +37,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	button_new_game = new wxButton( this, wxID_ANY, wxT("Nowa Gra"), wxDefaultPosition, wxDefaultSize, 0 );
 	bSizer5->Add(button_new_game, 0, wxALIGN_CENTER|wxALL, 10 );
 
-	button_preview = new wxButton( this, wxID_ANY, wxT("Podgl¹d"), wxDefaultPosition, wxDefaultSize, 0 );
+	button_preview = new wxButton( this, wxID_ANY, wxT("PodglÂ¹d"), wxDefaultPosition, wxDefaultSize, 0 );
 	bSizer5->Add(button_preview, 0, wxALIGN_CENTER|wxALL, 10 );
 
 	wxBoxSizer* bSizer61;
@@ -110,7 +110,7 @@ MyFrame::MyFrame( wxWindow* parent, wxWindowID id, const wxString& title, const 
 	menu_menu->Append( m_menuItem2 );
 
 	wxMenuItem* m_menuItem3;
-	m_menuItem3 = new wxMenuItem(menu_menu, wxID_ANY, wxString( wxT("Podgl¹d") ) , wxEmptyString, wxITEM_NORMAL );
+	m_menuItem3 = new wxMenuItem(menu_menu, wxID_ANY, wxString( wxT("PodglÂ¹d") ) , wxEmptyString, wxITEM_NORMAL );
 	menu_menu->Append( m_menuItem3 );
 
 	wxMenuItem* m_menuItem4;
