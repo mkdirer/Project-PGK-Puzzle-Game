@@ -2,7 +2,7 @@
 This project is a computer game consisting of assembling an image from its mixed parts. The program gives the user the option to choose one of two versions. The first version involves moving the squares into the empty space to form the image. The second version involves swapping image elements with each other while simultaneously flipping them symmetrically relative to the chosen edge. During gameplay, the time and number of steps taken by the player are measured, and after the game is over, this data, assigned to the player's nickname, is placed in the rankings.
 
 ## Project Analysis
-The user interface (frame with buttons and text fields) was created using wxFormBuilder. Using the New Game button, we download an image in jpg format - the image is cropped into squares or rectangles of a size determined by the number of divisions. Then, the cropped and mixed image fragments are displayed on the game board. After each move, we check if the arrangement is correct. If so, we stop the timer and add the user's score to the ranking.
+The user interface (frame with buttons and text fields) was created using wxFormBuilder. Using the New Game button, we download an image in jpg format - the image is cropped into squares or rectangles of a size determined by the number of divisions. Then, the cropped and mixed image fragments are displayed on the game board. After each move, we check if the arrangement is correct. If so, we stop the timer and add the user's score to the ranking. 
 
 ## Usage
 To play the game, follow these steps:
